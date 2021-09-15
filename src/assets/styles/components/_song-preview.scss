@@ -1,0 +1,30 @@
+.song-preview {
+    padding: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    &.selected {
+        background: rgb(163, 178, 221);
+    }
+    &:hover {
+        background: rgb(222, 222, 255);
+    }
+
+    .img-container {
+        width: 30%;
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .song-info {
+        padding-left: 1rem;
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        h4 {
+            font-size: 0.7rem;
+        }
+    }
+}

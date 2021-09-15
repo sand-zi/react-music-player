@@ -1,0 +1,19 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+
+// Pages
+@import "pages/music-app.scss";
+
+// Components
+@import "components/player.scss";
+@import "components/song.scss";
+@import "components/library.scss";
+@import "components/song-preview.scss";
+@import "components/app-nav.scss";
